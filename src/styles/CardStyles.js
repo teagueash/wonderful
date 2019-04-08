@@ -8,6 +8,7 @@ import styled from 'styled-components';
 export const CardContainer = styled.div`
     height: auto;
     width: auto;
+    max-width: 325px;
     margin: 0 auto;
     border-radius: 12px;
     z-index: 2;
