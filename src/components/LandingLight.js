@@ -5,15 +5,15 @@ import { CDN_PATH } from '../constants/paths';
 import backgroundLightLQIP from '../media/backgroundLightLQIP.png';
 
 import {
-    StyledContainer,
-    StyledHeader,
-    StyledAnchor,
-    StyledLogo,
-    StyledRow,
-    StyledColumn,
-    StyledBlockLight,
-    StyledLandingHeader,
-    StyledLandingParagraph,
+    LandingContainer,
+    LandingHeader,
+    LandingAnchor,
+    LandingLogo,
+    LandingRow,
+    LandingColumn,
+    LandingBlockLight,
+    LandingLandingHeader,
+    LandingLandingParagraph,
 } from '../styles/LandingStyles';
 
 function LandingLight() {
@@ -31,35 +31,35 @@ function LandingLight() {
                 srcPreload={backgroundLightLQIP}
                 srcLoaded={`${CDN_PATH}background.svg`}
             />
-            <StyledContainer>
-                <StyledHeader>
-                    <StyledAnchor href="https://google.com">
-                        <StyledLogo src={`${CDN_PATH}logodark.png`} />
-                    </StyledAnchor>
-                </StyledHeader>
-                <StyledRow marginTop={'3em'}>
-                    <StyledColumn>
-                        <StyledBlockLight marginLeft={'22%'}>
-                            <StyledLandingHeader>
+            <LandingContainer>
+                <LandingHeader>
+                    <LandingAnchor href="https://google.com">
+                        <LandingLogo src={`${CDN_PATH}logodark.png`} />
+                    </LandingAnchor>
+                </LandingHeader>
+                <LandingRow marginTop={'3em'}>
+                    <LandingColumn>
+                        <LandingBlockLight marginLeft={'22%'}>
+                            <LandingLandingHeader>
                                 Lorem ipsum dolor sit amet, consec tetur adip
                                 iscing
-                            </StyledLandingHeader>
-                            <StyledLandingParagraph>
+                            </LandingLandingHeader>
+                            <LandingLandingParagraph>
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, nuliam efficitur lectus eros
-                            </StyledLandingParagraph>
-                        </StyledBlockLight>
-                    </StyledColumn>
-                    <StyledColumn backgroundColor={'#F6FCFF'}>
-                        <StyledBlockLight>
+                            </LandingLandingParagraph>
+                        </LandingBlockLight>
+                    </LandingColumn>
+                    <LandingColumn backgroundColor={'#F6FCFF'}>
+                        <LandingBlockLight>
                             <Card
                                 image={`${CDN_PATH}shareCard.png`}
                                 data={mockData}
                             />
-                        </StyledBlockLight>
-                    </StyledColumn>
-                </StyledRow>
-            </StyledContainer>
+                        </LandingBlockLight>
+                    </LandingColumn>
+                </LandingRow>
+            </LandingContainer>
         </>
     );
 }

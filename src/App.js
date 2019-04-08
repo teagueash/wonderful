@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Switch from 'react-switch';
 import LandingLight from './components/LandingLight';
 import LandingDark from './components/LandingDark';
-import { StyledAppContainer, StyledSwitchContainer } from './styles/AppStyles';
+import { AppContainer, SwitchContainer } from './styles/AppStyles';
 
 function App() {
     const checkState =
@@ -26,8 +26,8 @@ function App() {
     );
 
     return (
-        <StyledAppContainer>
-            <StyledSwitchContainer
+        <AppContainer>
+            <SwitchContainer
                 onMouseEnter={toggleVisibility}
                 onMouseLeave={toggleVisibility}
                 checked={check}
@@ -48,9 +48,9 @@ function App() {
                     className="react-switch"
                     id="material-switch"
                 />
-            </StyledSwitchContainer>
+            </SwitchContainer>
             <>{check ? <LandingLight /> : <LandingDark />}</>
-        </StyledAppContainer>
+        </AppContainer>
     );
 }
 

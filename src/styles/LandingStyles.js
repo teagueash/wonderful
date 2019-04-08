@@ -5,10 +5,10 @@ import styled from 'styled-components';
  *          SHARED LANDING STYLES
  *
  ********************************************/
-export const StyledContainer = styled.div`
+export const LandingContainer = styled.div`
     position: relative;
 `;
-export const StyledHeader = styled.div`
+export const LandingHeader = styled.div`
     text-align: center;
     padding: 10px 0 10px 0;
     border-bottom: 1px solid #9999a1;
@@ -20,8 +20,8 @@ export const StyledHeader = styled.div`
         border-bottom: none;
     }
 `;
-export const StyledAnchor = styled.a``;
-export const StyledLogo = styled.img`
+export const LandingAnchor = styled.a``;
+export const LandingLogo = styled.img`
     height: 25px;
     width: 110px;
 
@@ -30,7 +30,7 @@ export const StyledLogo = styled.img`
         margin-left: 11%;
     }
 `;
-export const StyledRow = styled.div`
+export const LandingRow = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,7 +38,7 @@ export const StyledRow = styled.div`
     height: 100%;
     margin-top: ${props => props.marginTop};
 `;
-export const StyledColumn = styled.div`
+export const LandingColumn = styled.div`
     flex-basis: 100%;
     margin: 0em 2em 0em 2em;
 
@@ -58,7 +58,8 @@ export const StyledColumn = styled.div`
 
           `}
             z-index: 1;
-            margin: 2em 0 0 0;
+            padding-top: 2em;
+            margin: 0;
         }
     }
 
@@ -73,7 +74,7 @@ export const StyledColumn = styled.div`
  *          DARK LANDING STYLES
  *
  ********************************************/
-export const StyledImageDark = styled.img`
+export const LandingImageDark = styled.img`
     z-index: 1;
     width: 80%;
     max-width: 350px;
@@ -89,7 +90,7 @@ export const StyledImageDark = styled.img`
         height: auto;
     }
 `;
-export const StyledBlockDark = styled.div`
+export const LandingBlockDark = styled.div`
     margin: 0 auto;
     text-align: center;
     width: auto;
@@ -113,7 +114,7 @@ export const StyledBlockDark = styled.div`
  *          LIGHT LANDING STYLES
  *
  ********************************************/
-export const StyledBlockLight = styled.div`
+export const LandingBlockLight = styled.div`
     margin: 0 auto;
     padding-bottom: 2em;
     text-align: center;
@@ -126,7 +127,7 @@ export const StyledBlockLight = styled.div`
         width: auto;
     }
 `;
-export const StyledLandingHeader = styled.h1`
+export const LandingLandingHeader = styled.h1`
     color: #183a4f;
     padding-top: 1em;
     margin: 0 auto;
@@ -139,7 +140,7 @@ export const StyledLandingHeader = styled.h1`
         text-align: left;
     }
 `;
-export const StyledLandingParagraph = styled.p`
+export const LandingLandingParagraph = styled.p`
     color: #183a4f;
     margin: 0 auto;
     padding: 2em 0 2em 0;

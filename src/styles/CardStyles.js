@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { fadein } from './fadein';
 
 /********************************************
  *

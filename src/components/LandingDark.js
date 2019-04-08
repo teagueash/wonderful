@@ -5,14 +5,14 @@ import { CDN_PATH } from '../constants/paths';
 import backgroundDarkLQIP from '../media/backgroundDarkLQIP.png';
 
 import {
-    StyledContainer,
-    StyledHeader,
-    StyledAnchor,
-    StyledLogo,
-    StyledRow,
-    StyledColumn,
-    StyledImageDark,
-    StyledBlockDark,
+    LandingContainer,
+    LandingHeader,
+    LandingAnchor,
+    LandingLogo,
+    LandingRow,
+    LandingColumn,
+    LandingImageDark,
+    LandingBlockDark,
 } from '../styles/LandingStyles';
 
 function LandingDark() {
@@ -51,27 +51,27 @@ function LandingDark() {
                 srcPreload={backgroundDarkLQIP}
                 srcLoaded={`${CDN_PATH}backgroundAlt.svg`}
             />
-            <StyledContainer>
-                <StyledHeader>
-                    <StyledAnchor href="https://google.com">
-                        <StyledLogo src={`${CDN_PATH}logowhite.png`} />
-                    </StyledAnchor>
-                </StyledHeader>
-                <StyledRow marginTop={0}>
-                    <StyledColumn>
-                        <StyledBlockDark marginLeft={'22%'}>
+            <LandingContainer>
+                <LandingHeader>
+                    <LandingAnchor href="https://google.com">
+                        <LandingLogo src={`${CDN_PATH}logowhite.png`} />
+                    </LandingAnchor>
+                </LandingHeader>
+                <LandingRow marginTop={0}>
+                    <LandingColumn>
+                        <LandingBlockDark marginLeft={'22%'}>
                             <List heading={heading} mockData={mockData} />
-                        </StyledBlockDark>
-                    </StyledColumn>
-                    <StyledColumn backgroundColor={'#07435e'} flexEnd={true}>
-                        <StyledImageDark
+                        </LandingBlockDark>
+                    </LandingColumn>
+                    <LandingColumn backgroundColor={'#07435e'} flexEnd={true}>
+                        <LandingImageDark
                             style={style}
                             src={`${CDN_PATH}iPhone.png`}
                             onLoad={onLoad}
                         />
-                    </StyledColumn>
-                </StyledRow>
-            </StyledContainer>
+                    </LandingColumn>
+                </LandingRow>
+            </LandingContainer>
         </>
     );
 }

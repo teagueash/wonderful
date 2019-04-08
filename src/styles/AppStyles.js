@@ -5,8 +5,8 @@ import styled from 'styled-components';
  *                APP STYLES
  *
  ********************************************/
-export const StyledAppContainer = styled.div``;
-export const StyledSwitchContainer = styled.div`
+export const AppContainer = styled.div``;
+export const SwitchContainer = styled.div`
     position: absolute;
     z-index: 1;
     padding-top: 0.5em;

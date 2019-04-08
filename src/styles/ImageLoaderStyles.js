@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledContainer = styled.div`
+export const ImageLoaderContainer = styled.div`
     position: absolute;
     z-index: 0;
     width: 100vw;
@@ -15,7 +15,7 @@ export const StyledContainer = styled.div`
     }
 `;
 
-export const StyledPreload = styled.div`
+export const ImageLoaderPreload = styled.div`
     z-index: 1;
     filter: blur(50px);
     position: absolute;
@@ -25,7 +25,7 @@ export const StyledPreload = styled.div`
     background-position: center;
 `;
 
-export const StyledLoaded = styled.div`
+export const ImageLoaderLoaded = styled.div`
     z-index: 2;
     opacity: ${props => (props.fadein ? 1 : 0)}
     position: absolute;

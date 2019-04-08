@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
-    StyledContainer,
-    StyledPreload,
-    StyledLoaded,
+    ImageLoaderContainer,
+    ImageLoaderPreload,
+    ImageLoaderLoaded,
 } from '../styles/ImageLoaderStyles';
 
 function ImageLoader({ srcPreload, srcLoaded }) {
@@ -22,10 +22,10 @@ function ImageLoader({ srcPreload, srcLoaded }) {
     }, []);
 
     return (
-        <StyledContainer>
-            <StyledLoaded fadein={fadein} ref={imageLoaderRef} />
-            <StyledPreload background={srcPreload} />
-        </StyledContainer>
+        <ImageLoaderContainer>
+            <ImageLoaderLoaded fadein={fadein} ref={imageLoaderRef} />
+            <ImageLoaderPreload background={srcPreload} />
+        </ImageLoaderContainer>
     );
 }
 
