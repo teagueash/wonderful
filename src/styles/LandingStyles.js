@@ -119,7 +119,7 @@ export const LandingBlockLight = styled.div`
     margin: 0 auto;
     padding-bottom: 2em;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
 
     @media (min-width: 768px) {
         margin-left: ${props => props.marginLeft};
