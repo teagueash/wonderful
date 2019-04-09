@@ -23,6 +23,7 @@ export const ListItemPlaceholder = styled.div`
 export const ListItemContainer = styled.div`
     margin: 1em 0 1em 0;
     height: 21vh;
+    min-height: 150px;
     width: auto;
     cursor: pointer;
     display: flex;

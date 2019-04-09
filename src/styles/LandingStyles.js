@@ -86,6 +86,7 @@ export const LandingImageDark = styled.img`
 
     @media (min-width: 768px) {
         max-width: 350px;
+        max-height: 700px;
         width: 100%;
         height: auto;
     }

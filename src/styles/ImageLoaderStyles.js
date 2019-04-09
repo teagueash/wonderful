@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const ImageLoaderContainer = styled.div`
     position: absolute;
     z-index: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
     overflow: hidden;
     & div {
         width: inherit;

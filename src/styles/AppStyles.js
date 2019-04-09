@@ -5,7 +5,10 @@ import styled from 'styled-components';
  *                APP STYLES
  *
  ********************************************/
-export const AppContainer = styled.div``;
+export const AppContainer = styled.div`
+    width: 100%;
+    height: 100%;
+`;
 export const SwitchContainer = styled.div`
     position: absolute;
     z-index: 1;
