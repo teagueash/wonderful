@@ -27,19 +27,19 @@ function LandingDark() {
     const mockData = [
         {
             id: 'trainstop',
-            image: `${CDN_PATH}trainstop.svg`,
+            image: `${CDN_PATH}trainstop.png`,
             text:
                 'Lorem ipsum dolor sit amet consectetur adipiscing elit, nullam',
         },
         {
             id: 'coffeeshop',
-            image: `${CDN_PATH}coffeeshop.svg`,
+            image: `${CDN_PATH}coffeeshop.png`,
             text:
                 'Lorem ipsum dolor sit amet consectetur adipiscing elit, nullam efficitur lectus eros',
         },
         {
             id: 'jungle',
-            image: `${CDN_PATH}jungle.svg`,
+            image: `${CDN_PATH}jungle.png`,
             text:
                 'Lorem ipsum dolor sit amet consectetur adipiscing elit, nullam',
         },

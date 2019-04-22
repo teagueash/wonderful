@@ -33,6 +33,7 @@ export const ImageLoaderLoaded = styled.div`
     background-size: cover;
     background-position: 80%;
     transition: opacity 1s ease;
+    min-height: 100vh;
 
     @media (min-width: 768px) {
         background-position: center;
