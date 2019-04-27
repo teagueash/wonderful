@@ -13,7 +13,6 @@ export const ListHeader = styled.h1`
     margin-bottom: 1em;
     font-weight: 400;
     color: #fff;
-    animation: ${fadein} 1s ease;
 `;
 export const ListItemPlaceholder = styled.div`
     height: 100%;

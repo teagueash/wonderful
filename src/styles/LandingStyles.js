@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { fadein } from './fadein';
 
 /********************************************
  *
@@ -12,6 +13,7 @@ export const LandingHeader = styled.div`
     text-align: center;
     padding: 10px 0 10px 0;
     border-bottom: 1px solid #9999a1;
+    animation: ${fadein} 1s ease;
 
     @media (min-width: 768px) {
         width: 100%;
